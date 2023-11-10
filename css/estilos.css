@@ -65,3 +65,23 @@ h1 {
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
+
+
+.rodape{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  padding: 2.8rem 6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodape-text{
+  color: var(--vermelha);
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
